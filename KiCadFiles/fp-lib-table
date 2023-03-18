@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name "MX_Only")(type "KiCad")(uri "${KIPRJMOD}/Libraries/MX_Alps_Hybrid-master/MX_Only.pretty")(options "")(descr ""))
+  (lib (name "acheron_Components")(type "KiCad")(uri "${KIPRJMOD}/Libraries/acheron_Components.pretty")(options "")(descr ""))
+  (lib (name "random-keyboard-parts")(type "KiCad")(uri "${KIPRJMOD}/Libraries/random-keyboard-parts.pretty")(options "")(descr ""))
+  (lib (name "cipulot_parts")(type "KiCad")(uri "${KIPRJMOD}/Libraries/cipulot_kicad_parts/cipulot_parts.pretty")(options "")(descr ""))
+)

@@ -1,0 +1,72 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 903a77cb-19be-4965-b64e-eb1112eea36b)
+
+  (paper "USLetter")
+
+  (title_block
+    (title "BadABoard MK1")
+    (date "2022-09-13")
+    (rev "1.0")
+    (company "Callsign_Carrot")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 22.225 77.47) (size 159.385 75.565) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 37615b6b-414d-4255-8283-90578e03119e)
+    (property "Sheetname" "Switch Matrix" (at 22.225 76.7584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "SwitchMatrix.kicad_sch" (at 22.225 153.6196 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "BadABoard Bad Ass Board"
+        (path "/903a77cb-19be-4965-b64e-eb1112eea36b" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 22.225 20.955) (size 53.975 48.26) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 24 33 255 1))
+    (fill (color 0 0 0 0.0000))
+    (uuid 8d5e261c-9dc1-415b-9131-592532de90a5)
+    (property "Sheetname" "MCU Components" (at 22.225 20.2434 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "MCU.kicad_sch" (at 22.225 69.7996 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "BadABoard Bad Ass Board"
+        (path "/903a77cb-19be-4965-b64e-eb1112eea36b" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 81.28 20.955) (size 47.625 48.26) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 255 5 1))
+    (fill (color 0 0 0 0.0000))
+    (uuid b93c78aa-a838-408a-9c10-1657896aff3e)
+    (property "Sheetname" "USB & Power" (at 81.28 20.2434 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "USBnPower.kicad_sch" (at 81.28 69.7996 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "BadABoard Bad Ass Board"
+        (path "/903a77cb-19be-4965-b64e-eb1112eea36b" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
